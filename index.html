@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Expense Tracker</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6f9c4b3d3d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🤖 AI Expense Tracker</h1>
+    </header>
+
+
+    <!-- Add Expense -->
+
+    <section class="expenseCard">
+
+        <h2>➕ Add Expense</h2>
+
+        <div class="inputGroup">
+
+            <label>Description</label>
+
+            <input
+                type="text"
+                id="description"
+                placeholder="Example: Pizza Hut">
+
+        </div>
+
+        <div class="inputGroup">
+
+            <label>Amount</label>
+
+            <input
+                type="number"
+                id="amount"
+                placeholder="Enter Amount">
+
+        </div>
+
+        <button id="addExpenseBtn">
+
+            Add Expense
+
+        </button>
+
+    </section>
+
+
+
+    <!-- AI Result -->
+
+    <section class="aiCard">
+
+        <h2>🤖 AI Result</h2>
+
+        <p>
+
+            <strong>Category :</strong>
+
+            <span id="category">-</span>
+
+        </p>
+
+        <p>
+
+            <strong>Saving Tip :</strong>
+
+            <span id="savingTip">-</span>
+
+        </p>
+
+    </section>
+
+
+
+
+    <!-- Weekly Summary -->
+
+    <section class="summaryCard">
+
+        <h2>📊 Weekly Summary</h2>
+
+        <button id="summaryBtn">
+
+            Generate Summary
+
+        </button>
+
+        <div id="summary">
+
+            Click <b>Generate Summary</b> to get your AI weekly expense report.
+
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
