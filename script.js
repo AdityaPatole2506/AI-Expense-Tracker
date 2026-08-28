@@ -3,7 +3,7 @@
 // ==========================
 
 // Replace these with your Production Webhook URLs
-const ADD_EXPENSE_API = "https://krrish2006.app.n8n.cloud/webhook-test/0351975d-ca91-4cf2-982e-ab9213816439";
+const ADD_EXPENSE_API = "https://aladitya2006.app.n8n.cloud/webhook-test/0351975d-ca91-4cf2-982e-ab9213816439";
 const WEEKLY_SUMMARY_API = "https://aladitya2006.app.n8n.cloud/webhook-test/weekly-summary";
 
 // Temporary User ID
